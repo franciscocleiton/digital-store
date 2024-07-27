@@ -18,7 +18,7 @@ export default {
       'light-gray': '#8F8F8F',
       'light-gray-2': '#CCCCCC',
       'light-gray-3': '#F5F5F5',
-      'white': '#FFFFFF'
+      'white': '#FFFFFF',
     },
     width: {
       '1440': '1440px',
@@ -26,19 +26,26 @@ export default {
       '559': '559px',
       '166': '166px',
       '102': '102px',
+      '114': '114px',
     },
     height: {
       '192': '192px',
       '129': '129px',
       '60': '60px',
       '28': '28px',
+      '40': '40px',
     },
     margin: {
       '34': '34px',
       '100': '100px',
-      '27': '27px',
+      '23': '23px',
       '903': '532px',
-      '50': '23px'
+      '23': '23px',
+      '32': '32px',
+      '134': '100px',
+      '33': '-33px',
+      '709': '709px',
+      '4': '4px',
     },
     borderRadius: {
       'lpr': '8px'
@@ -48,6 +55,7 @@ export default {
       '408': '408px',
       '50': '50px',
       '991': '991px',
+      '44': '44px',
     },
     spacing: {
       '24': '24px'
@@ -74,5 +82,3 @@ export default {
   },
   plugins: [],
 }
-
-

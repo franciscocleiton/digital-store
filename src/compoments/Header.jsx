@@ -12,7 +12,7 @@ const Header = () => {
                     
                     <div className='flex ml-4 mr-23'>
                             <Logo />
-                        </div>
+                    </div>
                     <div className='flex w-709'>
                         
                         <div> 

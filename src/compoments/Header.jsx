@@ -6,41 +6,58 @@ import { IoIosSearch } from 'react-icons/io';
 const Header = () => {
     return ( 
         <>
-            <header className="relative m-0 bg-white flex w-full h-192 items-center">
+            <header className="header">
                 
-                <div className="flex w-993 h-129 mt-34 ml-100 mr-32">    
+                <div className="header-principal">    
                     
-                    <div className='flex ml-4 mr-23'>
+                    <div className='logo'>
                             <Logo />
                     </div>
-                    <div className='flex w-709'>
+                    <div className='div-search-cadastro'>
                         
                         <div> 
-                            <div className="flex bg-light-gray-3 flex-grow w-559 h-60 rounded-lpr">
-                                <input
-                                    type="text"
-                                    placeholder="Pesquisar produto..."
-                                    className="w-166 flex absolute h-28 top-65 left-408 gap-0 opacity-60 font-inter text-16 font-normal leading-7 tracking-0.75 text-left bg-light-gray-3"
-                                />
-                                <div className='ml-903 mt-23'>
-                                    <IoIosSearch className="hover:scale-125 text-light-gray-2" />
+                            <div className="search">
+                                <form>
+                                    <input
+                                        type="search"
+                                        placeholder="Pesquisar produto..."
+                                        className="input-search"
+                                    />
+                                </form>
+                                <div className='icon-search'>
+                                    <IoIosSearch className="ioiosearch" />
                                 </div>
                             </div>
                         
-                            <a href="/register" className="w-102 h-28 absolute top-65 left-991 font-inter text-16 leading-28 tracking-0.75 text-dark-gray-2 underline">Cadastre-se</a>
+                            <a href="/register" className="button-cadastro">Cadastre-se</a>
                         </div>  
                     </div>
-                    <div className='absolute mt-134'>
-                    <nav>
-                        <a href="/" className="mr-4">Home</a>
-                        <a href="/about" className="mr-4">About</a>
-                        <a href="/contact">Contact</a>
-                    </nav>
+                    <div className='menu'>
+                        <nav>
+                            <a href="/" className="">Home</a>
+                            <a href="/produtos" className="">Produtos</a>
+                            <a href="/contact" className=''>Categorias</a>
+                            <a href="/meus-pedidos" className=''>Meus Pedidos</a>
+                        </nav>
                     </div>
                 </div>
                 
-                <div className='mt-33 w-114 h-40 bg-primary flex items-center justify-center'>
-                    <button type="button" className="">Entrar</button>
+                <div className='div-primary-button'>
+                    <button type="button" className="primary-button">Entrar</button>
+                </div>
+
+                <div className='group53'>
+                    <div className='carrinho'>
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.42233 17.8203C5.84433 17.8203 6.18733 18.1633 6.18733 18.5853C6.18733 19.0073 5.84433 19.3493 5.42233 19.3493C5.00033 19.3493 4.65833 19.0073 4.65833 18.5853C4.65833 18.1633 5.00033 17.8203 5.42233 17.8203Z" stroke="#C92071" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6747 17.8203C17.0967 17.8203 17.4397 18.1633 17.4397 18.5853C17.4397 19.0073 17.0967 19.3493 16.6747 19.3493C16.2527 19.3493 15.9097 19.0073 15.9097 18.5853C15.9097 18.1633 16.2527 17.8203 16.6747 17.8203Z" stroke="#C92071" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M0.749878 1.25L2.82988 1.61L3.79288 13.083C3.87088 14.018 4.65188 14.736 5.58988 14.736H16.5019C17.3979 14.736 18.1579 14.078 18.2869 13.19L19.2359 6.632C19.3529 5.823 18.7259 5.099 17.9089 5.099H3.16388" stroke="#C92071" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.1254 8.79504H14.8984" stroke="#C92071" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div className='elipse'>
+                        2
+                    </div>
                 </div>
                 
             </header>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from './Logo';
+import { NavLink } from 'react-router-dom';
 import { IoIosSearch } from 'react-icons/io';
 
 
@@ -33,11 +34,19 @@ const Header = () => {
                         </div>  
                     </div>
                     <div className='menu'>
+                        {/*
                         <nav>
-                            <a href="/" className="">Home</a>
-                            <a href="/produtos" className="">Produtos</a>
-                            <a href="/contact" className=''>Categorias</a>
-                            <a href="/meus-pedidos" className=''>Meus Pedidos</a>
+                        <NavLink to="/" exact className="home" activeClassName="active-link">Home</NavLink>
+                        <NavLink to="/" className="produto" activeClassName="active-link">Produtos</NavLink>
+                        <NavLink to="/" className="categoria" activeClassName="active-link">Categorias</NavLink>
+                        <NavLink to="/" className="pedidos" activeClassName="active-link">Meus Pedidos</NavLink>
+                        </nav>
+                        */}
+                        <nav>
+                            <a href="/" className="home">Home</a>
+                            <a href="/produtos" className="produto">Produtos</a>
+                            <a href="/contact" className='categoria'>Categorias</a>
+                            <a href="/meus-pedidos" className='pedidos'>Meus Pedidos</a>
                         </nav>
                     </div>
                 </div>

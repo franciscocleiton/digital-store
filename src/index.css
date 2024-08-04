@@ -199,3 +199,168 @@
     opacity: 0px;
 }
 
+footer {
+    background-color: #1F1F1F;
+    color: white;
+    width: 100%;
+    height: 454px;
+    display: flex;
+}
+
+.logofooter {
+    position: relative;
+    width: 253px;
+    height: 44px;
+    top: 72px;
+    left: 104px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.lorem {
+    position: absolute;
+    width: 307px;
+    height: 78px;
+    margin-top: 151px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    
+}
+
+.redes {
+    position: absolute;
+    width: 124.12px;
+    height: 20.53px;
+    margin-top: 269px;
+    left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_informacao {
+    position: absolute;
+    width: 135px;
+    height: 278px;
+    margin-top: 72px;
+    left: 612px;
+}
+
+.p_informacao {
+    width: 99px;
+    height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+}
+
+.div2_informacao {
+    position: absolute;
+    width: 135px;
+    height: 228px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: left;
+}
+
+.p1 {
+    padding-top: 4px;
+}
+
+.div_categoria {
+    position: absolute;
+    width: 96px;
+    height: 240px;
+    margin-top: 72px;
+    left: 849px;
+}
+
+.p_categoria {
+    width: 99px;
+    height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+}
+
+.div2_categoria {
+    position: absolute;
+    width: 135px;
+    height: 228px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: left;
+}
+
+.p1_categoria {
+    padding-top: 4px;
+}
+
+.div_contato {
+    position: absolute;
+    width: 233px;
+    height: 168px;
+    margin-top: 72px;
+    left: 1113px;
+}
+
+.p_contato {
+    width: 71px;
+    height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: left;
+}
+
+.end {
+    position: absolute;
+    margin-top: 22px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+.tel {
+    position: absolute;
+    margin-top: 120px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.linha {
+    position: absolute;
+    width: 1240px;
+    height: 1px;
+    margin-top: 384px;
+    left: 100px;
+    background-color: #666666;
+    opacity: 0.3px;
+}
+
+.copy {
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    margin-top: 408px;
+    left: 618px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+
+}

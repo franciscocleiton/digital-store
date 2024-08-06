@@ -1,5 +1,25 @@
 import React from 'react';
 import LogoFooter from './LogoFooter';
+import InformationComponent from './InformationComponent';
+
+const informacao = [
+    { text: "Sobre Drip Store", link: "/about" },
+    { text: "Segurança", link: "/seguranca" }, 
+    { text: "Wishlist", link: "/wishlist" },
+    { text: "Blog", link: "/blog" },
+    { text: "Trabalhe Conosco", link: "/trabalhe_conosco" },
+    { text: "Meus Pedidos", link: "/meus_pedidos" },
+];
+
+const categoria = [
+    { text: "Camisetas", link: "/camisetas" },
+    { text: "Calças", link: "/calcas" },
+    { text: "Bonés", link: "/bones" },
+    { text: "Headphones", link: "/headphones" },
+    { text: "Tênis", link: "/tenis" },
+];
+
+const currentYear = new Date().getFullYear();
 
 const Footer = () => {
     return (
@@ -31,28 +51,11 @@ const Footer = () => {
             </div>
 
             <div className='div_informacao'>
-                <p className='p_informacao'>Informação</p>
-                
-                <div className='div2_informacao'>
-                    <p className='p1'>Sobre Drip Store</p>
-                    <p>Segurança</p>
-                    <p>Wishlist</p>
-                    <p>Blog</p>
-                    <p>Trabalhe conosco</p>
-                    <p>Meus Pedidos</p>
-                </div>
+                    <InformationComponent title="Informações" informations={informacao} />
             </div>
 
             <div className='div_categoria'>
-                <p className='p_categoria'>Categorias</p>
-
-                <div className='div2_informacao'>
-                    <p className='p1'>Camisetas</p>
-                    <p>Calças</p>
-                    <p>Bonés</p>
-                    <p>Headphones</p>
-                    <p>Tênis</p>
-                </div>
+                <InformationComponent title="Categorias" informations={categoria} />
             </div>
 
             <div className='div_contato'>
@@ -63,9 +66,9 @@ const Footer = () => {
             </div>
             
             <div className='linha'></div>
-            <p className='copy'>@ 2022 Digital College</p>
+            <p className='copy'>&copy; {currentYear} Digital College</p>
         </footer>
     );
-}
+};
  
 export default Footer;

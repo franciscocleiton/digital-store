@@ -243,35 +243,10 @@ footer {
 
 .div_informacao {
     position: absolute;
-    width: 135px;
+    width: 150px;
     height: 278px;
     margin-top: 72px;
     left: 612px;
-}
-
-.p_informacao {
-    width: 99px;
-    height: 22px;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 21.78px;
-    text-align: left;
-}
-
-.div2_informacao {
-    position: absolute;
-    width: 135px;
-    height: 228px;
-    top: 50px;
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    line-height: 38px;
-    text-align: left;
-}
-
-.p1 {
-    padding-top: 4px;
 }
 
 .div_categoria {
@@ -280,31 +255,6 @@ footer {
     height: 240px;
     margin-top: 72px;
     left: 849px;
-}
-
-.p_categoria {
-    width: 99px;
-    height: 22px;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 21.78px;
-    text-align: left;
-}
-
-.div2_categoria {
-    position: absolute;
-    width: 135px;
-    height: 228px;
-    top: 50px;
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    line-height: 38px;
-    text-align: left;
-}
-
-.p1_categoria {
-    padding-top: 4px;
 }
 
 .div_contato {
@@ -361,6 +311,4 @@ footer {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-
-
 }

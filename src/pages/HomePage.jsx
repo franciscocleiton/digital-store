@@ -1,7 +1,7 @@
 import Section from "../compoments/Section";
 import Layout from "./layout";
 import ProductListing from "../compoments/ProductListing";
-
+import Gallery from "../compoments/Galerry";
 
 const HomePage = () => {
     const link = {
@@ -72,6 +72,18 @@ const HomePage = () => {
         <>
             
             <Layout>
+            <Gallery
+                className="my-custom-gallery"
+                width="800px"
+                height="600px"
+                radius="8px"
+                showThumbs
+                images={[
+                    { src: 'http://site.com/path/to/image1.png' },
+                    { src: 'http://site.com/path/to/image2.png' },
+                    { src: 'http://site.com/path/to/image3.png' },
+                ]}
+            />
                 <Section title="Coleção em Destaque" titleAlign="left">
                 
                 </Section>

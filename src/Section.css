@@ -1,13 +1,14 @@
 .section {
     padding: 20px;
     border: 1px solid #ccc;
-    margin-bottom: 20px;
+    background-color: #CCCCCC;
   }
   
   .section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 12px;
     margin-bottom: 10px;
   }
   
